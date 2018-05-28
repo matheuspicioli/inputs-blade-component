@@ -1,0 +1,2 @@
+<label for="{{ $id }}" class="control-label">{{ $texto }}</label>
+<textarea name="{{ $nome }}" id="{{ $id }}" class="form-control pula" title="{{ $titulo ?? null }}" rows="{{ $rows }}" tabindex="{{ $tabindex }}">{{ $valor }}</textarea>
