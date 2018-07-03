@@ -1,1 +1,1 @@
-<input type="hidden" name="{{ $nome }}" value="{{ $valor ?? null }}" {{ $atributos ?? null }} />
+<input type="hidden" name="{{ $nome }}" id="{{ $id ?? null }}" value="{{ $valor ?? null }}" {{ $atributos ?? null }} />
